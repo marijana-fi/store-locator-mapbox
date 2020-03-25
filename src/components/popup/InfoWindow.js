@@ -4,8 +4,6 @@ import "./info-window.scss";
 import { Popup } from "react-map-gl";
 
 export default function InfoWindow({ selected, setSelected }) {
-	console.log(selected.geometry.coordinates[1].toFixed(2));
-
 	return (
 		<Popup
 			latitude={selected.geometry.coordinates[1]}
