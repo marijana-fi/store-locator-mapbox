@@ -1,0 +1,754 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"geometry": {
+				"coordinates": [2.346606, 41.615352],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=11273964007562201533",
+				"Location": {
+					"Address": "Polígono Industrial, Polígono Industrial, Polígon Can Massaguer Sud, S/N, 08430 La Roca del Vallès, Barcelona, Spain",
+					"Business Name": "Nike Factory Store Barcelona",
+					"Country Code": "ES",
+					"Geo Coordinates": {
+						"Latitude": "41.6153520",
+						"Longitude": "2.3466060"
+					}
+				},
+				"Published": "2020-03-24T08:41:33Z",
+				"Title": "Nike Factory Store Barcelona",
+				"Updated": "2020-03-24T08:41:33Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [0.7104462, 47.3249943],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=3430390486569605511",
+				"Location": {
+					"Address": "Centre Commercial Ma Petite Madelaine, 213 Avenue du Grand Sud, 37170 Chambray-lès-Tours, France",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "FR",
+					"Geo Coordinates": {
+						"Latitude": "47.3249943",
+						"Longitude": "0.7104462"
+					}
+				},
+				"Published": "2020-03-24T08:41:18Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:41:18Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [10.7460965, 59.9118294],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=3865758909905933241",
+				"Location": {
+					"Address": "Karl Johans gate 12, 0154 Oslo, Norway",
+					"Business Name": "Nike Store",
+					"Country Code": "NO",
+					"Geo Coordinates": {
+						"Latitude": "59.9118294",
+						"Longitude": "10.7460965"
+					}
+				},
+				"Published": "2020-03-24T08:41:05Z",
+				"Title": "Nike Store",
+				"Updated": "2020-03-24T08:41:05Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [17.8575464, 59.4167707],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=7883491202684675825",
+				"Location": {
+					"Address": "Flyginfarten 4, 177 38 Järfälla, Sweden",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "SE",
+					"Geo Coordinates": {
+						"Latitude": "59.4167707",
+						"Longitude": "17.8575464"
+					}
+				},
+				"Published": "2020-03-24T08:40:47Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:40:47Z"
+			},
+			"type": "Feature"
+		},
+
+		{
+			"geometry": {
+				"coordinates": [18.5522813, 54.3211207],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=17882027644818804768",
+				"Location": {
+					"Address": "Przywidzka 8, 80-174 Gdańsk, Poland",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "PL",
+					"Geo Coordinates": {
+						"Latitude": "54.3211207",
+						"Longitude": "18.5522813"
+					}
+				},
+				"Published": "2020-03-24T08:40:30Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:40:30Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [16.5714484, 43.5888341],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=11451875439802848745",
+				"Location": {
+					"Address": "Svetog Leopolda Mandica 13, 21204, Dugopolje, Croatia",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "HR",
+					"Geo Coordinates": {
+						"Latitude": "43.5888341",
+						"Longitude": "16.5714484"
+					}
+				},
+				"Published": "2020-03-24T08:39:36Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:39:36Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [12.9063709, 47.7653377],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=17289775581969678494",
+				"Location": {
+					"Address": "Lattenbergstraße 5, 83451 Piding, Germany",
+					"Business Name": "Nike Factory Store Piding",
+					"Country Code": "DE",
+					"Geo Coordinates": {
+						"Latitude": "47.7653377",
+						"Longitude": "12.9063709"
+					}
+				},
+				"Published": "2020-03-24T08:39:21Z",
+				"Title": "Nike Factory Store Piding",
+				"Updated": "2020-03-24T08:39:21Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [21.1424492, 47.8440018],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=3746237158296104539",
+				"Location": {
+					"Address": "Polgár, Polgar M3 Outlet, unit 52, 4090 Hungary",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "HU",
+					"Geo Coordinates": {
+						"Latitude": "47.8440018",
+						"Longitude": "21.1424492"
+					}
+				},
+				"Published": "2020-03-24T08:39:09Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:39:09Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [19.1177023, 47.6108113],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=4385564180032531828",
+				"Location": {
+					"Address": "Dunakeszi, Nádas utca 12-13, 2120 Hungary",
+					"Business Name": "NIKE Factory Store",
+					"Country Code": "HU",
+					"Geo Coordinates": {
+						"Latitude": "47.6108113",
+						"Longitude": "19.1177023"
+					}
+				},
+				"Published": "2020-03-24T08:39:05Z",
+				"Title": "NIKE Factory Store",
+				"Updated": "2020-03-24T08:39:05Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [19.8473585, 50.1101987],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=128074289326141592",
+				"Location": {
+					"Address": "profesora Adama Rożańskiego 32, 32-089 Kraków, Poland",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "PL",
+					"Geo Coordinates": {
+						"Latitude": "50.1101987",
+						"Longitude": "19.8473585"
+					}
+				},
+				"Published": "2020-03-24T08:38:24Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:38:24Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [5.0570599, 45.0460889],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=11720841182122531471",
+				"Location": {
+					"Address": "60 Avenue Gambetta, 26100 Romans-sur-Isère, France",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "FR",
+					"Geo Coordinates": {
+						"Latitude": "45.0460889",
+						"Longitude": "5.0570599"
+					}
+				},
+				"Published": "2020-03-24T08:38:16Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:38:16Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [-6.3865435, 53.3901687],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=15761223311469612896",
+				"Location": {
+					"Address": "Westend Retail Park Unit 6, Blanchardstown, Dublin, Ireland",
+					"Business Name": "Nike Factory Store Dublin",
+					"Country Code": "IE",
+					"Geo Coordinates": {
+						"Latitude": "53.3901687",
+						"Longitude": "-6.3865435"
+					}
+				},
+				"Published": "2020-03-24T08:38:09Z",
+				"Title": "Nike Factory Store Dublin",
+				"Updated": "2020-03-24T08:38:09Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [6.5570756, 53.2150292],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=17304355967667347439",
+				"Location": {
+					"Address": "Westerhaven 61, 9718 AC Groningen, Netherlands",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "NL",
+					"Geo Coordinates": {
+						"Latitude": "53.2150292",
+						"Longitude": "6.5570756"
+					}
+				},
+				"Published": "2020-03-24T08:38:01Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:38:01Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [-9.5025409, 52.0597961],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=17367601905486440269",
+				"Location": {
+					"Address": "Killarney Outlet Centre, Fair Hill, Killarney, Co. Kerry, Ireland",
+					"Business Name": "Nike Factory Store Killarney",
+					"Country Code": "IE",
+					"Geo Coordinates": {
+						"Latitude": "52.0597961",
+						"Longitude": "-9.5025409"
+					}
+				},
+				"Published": "2020-03-24T08:37:57Z",
+				"Title": "Nike Factory Store Killarney",
+				"Updated": "2020-03-24T08:37:57Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [-1.1900606, 37.9976908],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=14308244902238437544",
+				"Location": {
+					"Address": "Manzana 13.1 Sector ZU-NRe, local 40, 30830 La Ñora, Murcia, Spain",
+					"Business Name": "Nike Factory Store Murcia",
+					"Country Code": "ES",
+					"Geo Coordinates": {
+						"Latitude": "37.9976908",
+						"Longitude": "-1.1900606"
+					}
+				},
+				"Published": "2020-03-24T08:37:51Z",
+				"Title": "Nike Factory Store Murcia",
+				"Updated": "2020-03-24T08:37:51Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [-3.8513437, 40.3464761],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=9474948712321903864",
+				"Location": {
+					"Address": "Avenida Europa, s/n, Polígono industrial Parque Oeste, 28925 Alcorcón, Madrid, Spain",
+					"Business Name": "Nike Factory Store Madrid Parque Oeste",
+					"Country Code": "ES",
+					"Geo Coordinates": {
+						"Latitude": "40.3464761",
+						"Longitude": "-3.8513437"
+					}
+				},
+				"Published": "2020-03-24T08:37:48Z",
+				"Title": "Nike Factory Store Madrid Parque Oeste",
+				"Updated": "2020-03-24T08:37:48Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [16.0634022, 48.7626037],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=4269159077500583298",
+				"Location": {
+					"Address": "Chvalovice-Hate 196, 669 02 Chvalovice, Czechia",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "CZ",
+					"Geo Coordinates": {
+						"Latitude": "48.7626037",
+						"Longitude": "16.0634022"
+					}
+				},
+				"Published": "2020-03-24T08:37:24Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:37:24Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [6.1813089, 49.2287808],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=16740453567453986946",
+				"Location": {
+					"Address": "Marques Avenue Talange Zi, 57525 Talange, France",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "FR",
+					"Geo Coordinates": {
+						"Latitude": "49.2287808",
+						"Longitude": "6.1813089"
+					}
+				},
+				"Published": "2020-03-24T08:37:20Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:37:20Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [8.085803, 48.8372277],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=16926960171902329172",
+				"Location": {
+					"Address": "1 Route De L'Europe Unit K1, K2, 67480 Roppenheim, France",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "FR",
+					"Geo Coordinates": {
+						"Latitude": "48.8372277",
+						"Longitude": "8.0858030"
+					}
+				},
+				"Published": "2020-03-24T08:37:15Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:37:15Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [9.5530582, 46.9646673],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=16894781856732981453",
+				"Location": {
+					"Address": "Tardisstrasse 37, 7205 Landquart, Switzerland",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "CH",
+					"Geo Coordinates": {
+						"Latitude": "46.9646673",
+						"Longitude": "9.5530582"
+					}
+				},
+				"Published": "2020-03-24T08:37:09Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:37:09Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [24.9253973, 41.1095868],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=6121005407715371319",
+				"Location": {
+					"Address": "Flamingo Retail Park, Xanthi 671 00, Greece",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "GR",
+					"Geo Coordinates": {
+						"Latitude": "41.1095868",
+						"Longitude": "24.9253973"
+					}
+				},
+				"Published": "2020-03-24T08:37:05Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:37:05Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [-1.581075, 54.8068972],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=15611268621202188243",
+				"Location": {
+					"Address": "Abbey Rd Unit J, The, Arnison Centre, Pity Me, Durham DH1 5GB, United Kingdom",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "GB",
+					"Geo Coordinates": {
+						"Latitude": "54.8068972",
+						"Longitude": "-1.5810750"
+					}
+				},
+				"Published": "2020-03-24T08:36:48Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:36:48Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [-2.2355176, 53.4970565],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=12648893482728189182",
+				"Location": {
+					"Address": "Unit 23, Cheetham Hill Road, Manchester M8 8EP, United Kingdom",
+					"Business Name": "Nike Factory Store Manchester Fort",
+					"Country Code": "GB",
+					"Geo Coordinates": {
+						"Latitude": "53.4970565",
+						"Longitude": "-2.2355176"
+					}
+				},
+				"Published": "2020-03-24T08:36:44Z",
+				"Title": "Nike Factory Store Manchester Fort",
+				"Updated": "2020-03-24T08:36:44Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [1.9680474, 48.8268175],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=16773752976515658715",
+				"Location": {
+					"Address": "161 Avenue de Saint-Germain, 78370 Plaisir, France",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "FR",
+					"Geo Coordinates": {
+						"Latitude": "48.8268175",
+						"Longitude": "1.9680474"
+					}
+				},
+				"Published": "2020-03-24T08:36:35Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:36:35Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [2.4990953, 48.9790404],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=11858400835475964400",
+				"Location": {
+					"Address": "134 Avenue De La Plaine De France Zone Industrielle Paris Nord 2, 95500 Paris, France",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "FR",
+					"Geo Coordinates": {
+						"Latitude": "48.9790404",
+						"Longitude": "2.4990953"
+					}
+				},
+				"Published": "2020-03-24T08:36:32Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:36:32Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [11.4825886, 52.1800187],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=8514749845042173781",
+				"Location": {
+					"Address": "Am Elbepark 1, 39326 Hohe Börde, Germany",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "DE",
+					"Geo Coordinates": {
+						"Latitude": "52.1800187",
+						"Longitude": "11.4825886"
+					}
+				},
+				"Published": "2020-03-24T08:36:22Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:36:22Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [16.2176753, 48.2081874],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=14879474078753193581",
+				"Location": {
+					"Address": "Albert-Schweitzer-Gasse 6, 1130 Wien, Austria",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "AT",
+					"Geo Coordinates": {
+						"Latitude": "48.2081874",
+						"Longitude": "16.2176753"
+					}
+				},
+				"Published": "2020-03-24T08:36:16Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:36:16Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [3.1245804, 50.6142634],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=17062488319740066259",
+				"Location": {
+					"Address": "Centre Commercial Heron Park, Boulevard de Tournai, 59260 Villeneuve-d'Ascq, France",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "FR",
+					"Geo Coordinates": {
+						"Latitude": "50.6142634",
+						"Longitude": "3.1245804"
+					}
+				},
+				"Published": "2020-03-24T08:36:05Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:36:05Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [7.1328269, 43.6348872],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=9540467705839541338",
+				"Location": {
+					"Address": "1614 Route Nationale 7, 06270 Villeneuve-Loubet, France",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "FR",
+					"Geo Coordinates": {
+						"Latitude": "43.6348872",
+						"Longitude": "7.1328269"
+					}
+				},
+				"Published": "2020-03-24T08:35:55Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:35:55Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [14.5396942, 50.0762617],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=16823478040451678514",
+				"Location": {
+					"Address": "Praha-, 102 00 Sterboholy, Czechia",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "CZ",
+					"Geo Coordinates": {
+						"Latitude": "50.0762617",
+						"Longitude": "14.5396942"
+					}
+				},
+				"Published": "2020-03-24T08:31:05Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:31:05Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [12.1914716, 51.554481],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=9991092777420650949",
+				"Location": {
+					"Address": "Thiemendorfer Mark 1, 06796 Sandersdorf-Brehna, Germany",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "DE",
+					"Geo Coordinates": {
+						"Latitude": "51.5544810",
+						"Longitude": "12.1914716"
+					}
+				},
+				"Published": "2020-03-24T08:30:58Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:30:58Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [14.2771516, 46.593435],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=13085825605284904944",
+				"Location": {
+					"Address": "Adi-Dassler-Gasse 4, 9073 Klagenfurt am Wörthersee, Austria",
+					"Business Name": "Nike Factory Store Klagenfurt",
+					"Country Code": "AT",
+					"Geo Coordinates": {
+						"Latitude": "46.5934350",
+						"Longitude": "14.2771516"
+					}
+				},
+				"Published": "2020-03-24T08:30:45Z",
+				"Title": "Nike Factory Store Klagenfurt",
+				"Updated": "2020-03-24T08:30:45Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [11.7843068, 48.1445418],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=18246180805160280761",
+				"Location": {
+					"Address": "Posthalterring 22A, 85599 Vaterstetten, Germany",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "DE",
+					"Geo Coordinates": {
+						"Latitude": "48.1445418",
+						"Longitude": "11.7843068"
+					}
+				},
+				"Published": "2020-03-24T08:30:40Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:30:40Z"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [10.4439568, 48.410071],
+				"type": "Point"
+			},
+			"properties": {
+				"Google Maps URL": "http://maps.google.com/?cid=18166914373277319733",
+				"Location": {
+					"Address": "Siemensstraße 2, 89343 Jettingen-Scheppach, Germany",
+					"Business Name": "Nike Factory Store",
+					"Country Code": "DE",
+					"Geo Coordinates": {
+						"Latitude": "48.4100710",
+						"Longitude": "10.4439568"
+					}
+				},
+				"Published": "2020-03-24T08:30:32Z",
+				"Title": "Nike Factory Store",
+				"Updated": "2020-03-24T08:30:32Z"
+			},
+			"type": "Feature"
+		}
+	]
+}
