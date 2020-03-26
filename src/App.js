@@ -1,10 +1,15 @@
 import data from "./nike-stores.json";
 import React, { useState, useEffect } from "react";
-import ReactMapGl, { FlyToInterpolator } from "react-map-gl";
+import ReactMapGl, {
+	FlyToInterpolator,
+	GeolocateControl,
+	NavigationControl
+} from "react-map-gl";
 import "./App.scss";
-import SingleLocation from "./components/single location/SingleLocation";
+import SingleLocation from "./components/single location list/SingleLocation";
 import Pins from "./components/pins/Pins";
 import InfoWindow from "./components/popup/InfoWindow";
+import LocationDetails from "./components/location details/LocationDetails";
 
 const MAPBOX_TOKEN = process.env.REACT_APP_TOKEN;
 
@@ -18,6 +23,7 @@ function App() {
 		height: "100vh"
 	});
 	const [selected, setSelected] = useState(null);
+	const [open, setOpen] = useState(false);
 
 	useEffect(() => {
 		const listener = e => {
@@ -39,29 +45,47 @@ function App() {
 		onViewportChange({
 			latitude,
 			longitude,
-			zoom: 5,
+			zoom: 6,
 			width: "50vw",
 			height: "100vh",
-			transitionInterpolator: new FlyToInterpolator({ speed: 1.4 }),
+			transitionInterpolator: new FlyToInterpolator({ speed: 1.2 }),
 			transitionDuration: "auto"
 		});
+	};
+	const openLocation = () => {
+		setOpen(true);
+	};
+	const closeLocation = () => {
+		setOpen(false);
 	};
 	return (
 		<div className="layout">
 			<ReactMapGl
 				{...viewport}
 				mapboxApiAccessToken={MAPBOX_TOKEN}
-				mapStyle="mapbox://styles/majafl/ck85sl3p80gga1iqce1tsuef5"
+				mapStyle="mapbox://styles/majafl/ck89104040auz1ilj59832tld"
 				onViewportChange={onViewportChange}
 			>
+				<div style={{ position: "absolute", right: 10, top: 10 }}>
+					<NavigationControl />
+				</div>
+				<GeolocateControl
+					positionOptions={{ enableHighAccuracy: true }}
+					trackUserLocation={true}
+					style={{ position: "absolute", left: 10, top: 10 }}
+				/>
 				<Pins
 					locations={locations}
 					setSelected={setSelected}
 					goToViewport={goToViewport}
 				/>
-
 				{selected ? (
-					<InfoWindow selected={selected} setSelected={setSelected} />
+					<InfoWindow
+						selected={selected}
+						setSelected={setSelected}
+						openLocation={openLocation}
+						closeLocation={closeLocation}
+					/>
 				) : null}
 			</ReactMapGl>
 
@@ -72,10 +96,16 @@ function App() {
 							location={location}
 							setSelected={setSelected}
 							key={location.geometry.coordinates}
+							goToViewport={goToViewport}
 						/>
 					);
 				})}
 			</div>
+			<LocationDetails
+				selected={selected}
+				open={open}
+				closeLocation={closeLocation}
+			/>
 		</div>
 	);
 }

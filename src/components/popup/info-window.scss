@@ -1,11 +1,17 @@
 .mapboxgl-popup {
-	width: 301px;
-	transform: translate(10px 10px);
+	max-width: 300px;
+	width: 100%;
+	.mapboxgl-popup-content {
+		padding: 20px;
+		.mapboxgl-popup-close-button {
+			font-size: 24px;
+			padding: 6px;
+			line-height: 0.6;
+		}
+	}
 }
 
 .info-wrap {
-	width: 291px;
-
 	h5 {
 		margin-bottom: 20px;
 	}
@@ -16,5 +22,10 @@
 		color: #fff;
 		padding: 10px;
 		font-size: 15px;
+
+		&:focus {
+			outline: none;
+			box-shadow: 0 0 0 3px #fff, 0 0 0 4px #000;
+		}
 	}
 }

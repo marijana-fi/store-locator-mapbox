@@ -1,0 +1,21 @@
+.location-wrap {
+	padding: 30px 50px;
+	width: 100%;
+	cursor: pointer;
+	border-bottom: 1px solid rgb(196, 196, 196);
+	transition: all 0.3s;
+	&:focus {
+		background: #000;
+		outline: none;
+		h2 {
+			color: var(--sec-text-color);
+		}
+		h5 {
+			color: #fff;
+		}
+	}
+	.info {
+		max-width: 400px;
+		width: 100%;
+	}
+}

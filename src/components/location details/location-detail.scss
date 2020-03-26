@@ -1,0 +1,34 @@
+.details-wrap {
+	width: 50vw;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #fff;
+	height: 100vh;
+	padding: 70px;
+	transform: translateX(100%);
+	transition: all 0.5s;
+	&.open {
+		transform: translateX(0);
+		transition: all 0.5s;
+	}
+	.close {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 10px;
+		font-size: 30px;
+		line-height: 0.6;
+	}
+	.location-name {
+		margin-bottom: 50px;
+	}
+	.store-info {
+		max-width: 400px;
+		width: 100%;
+		margin-bottom: 50px;
+		.address {
+			margin-bottom: 30px;
+		}
+	}
+}
