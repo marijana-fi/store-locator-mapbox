@@ -41,6 +41,10 @@ function App() {
 		setViewport(viewport);
 	};
 
+	const handleFocusChange = element => {
+		element.current.focus();
+	};
+
 	const goToViewport = (latitude, longitude) => {
 		onViewportChange({
 			latitude,
@@ -52,6 +56,7 @@ function App() {
 			transitionDuration: "auto"
 		});
 	};
+
 	const openLocation = () => {
 		setOpen(true);
 	};
@@ -78,6 +83,7 @@ function App() {
 					locations={locations}
 					setSelected={setSelected}
 					goToViewport={goToViewport}
+					handleFocusChange={handleFocusChange}
 				/>
 				{selected ? (
 					<InfoWindow
@@ -93,10 +99,12 @@ function App() {
 				{locations.map(location => {
 					return (
 						<SingleLocation
+							selected={selected}
 							location={location}
 							setSelected={setSelected}
 							key={location.geometry.coordinates}
 							goToViewport={goToViewport}
+							handleFocusChange={handleFocusChange}
 						/>
 					);
 				})}

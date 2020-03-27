@@ -1,4 +1,5 @@
 import React from "react";
+import "./pins.scss";
 
 import { Marker } from "react-map-gl";
 
@@ -17,13 +18,14 @@ export default function Pins({ locations, setSelected, goToViewport }) {
 							onClick={e => {
 								e.preventDefault();
 								setSelected(location);
+
 								goToViewport(
 									location.geometry.coordinates[1],
 									location.geometry.coordinates[0]
 								);
 							}}
 						>
-							<img src="/img/pin-drop.svg" alt="store" />
+							<div></div>
 						</button>
 					</Marker>
 				);
