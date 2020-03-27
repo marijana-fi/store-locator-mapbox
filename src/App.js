@@ -17,10 +17,10 @@ function App() {
 	const [locations, setLocations] = useState(data.features);
 	const [viewport, setViewport] = useState({
 		latitude: 49.0555,
-		longitude: 8.4376,
-		zoom: 4,
-		width: "50vw",
-		height: "100vh"
+		longitude: 10.4376,
+		zoom: window.innerWidth < 480 ? 3 : 4,
+		width: window.innerWidth < 480 ? "100vw" : "50vw",
+		height: window.innerWidth < 480 ? "50vh" : "100vh"
 	});
 	const [selected, setSelected] = useState(null);
 	const [open, setOpen] = useState(false);
@@ -49,9 +49,9 @@ function App() {
 		onViewportChange({
 			latitude,
 			longitude,
-			zoom: 6,
-			width: "50vw",
-			height: "100vh",
+			zoom: window.innerWidth < 480 ? 5 : 6,
+			width: window.innerWidth < 480 ? "100vw" : "50vw",
+			height: window.innerWidth < 480 ? "50vh" : "100vh",
 			transitionInterpolator: new FlyToInterpolator({ speed: 1.2 }),
 			transitionDuration: "auto"
 		});
@@ -68,7 +68,7 @@ function App() {
 			<ReactMapGl
 				{...viewport}
 				mapboxApiAccessToken={MAPBOX_TOKEN}
-				mapStyle="mapbox://styles/majafl/ck89104040auz1ilj59832tld"
+				mapStyle="mapbox://styles/majafl/ck8agzeeh0jpz1ilg7zm6j1ae"
 				onViewportChange={onViewportChange}
 			>
 				<div style={{ position: "absolute", right: 10, top: 10 }}>

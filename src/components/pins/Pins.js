@@ -25,7 +25,7 @@ export default function Pins({ locations, setSelected, goToViewport }) {
 								);
 							}}
 						>
-							<div></div>
+							<img src="/img/pin.svg" alt="" />
 						</button>
 					</Marker>
 				);

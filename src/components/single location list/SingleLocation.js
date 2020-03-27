@@ -23,7 +23,6 @@ export default function SingleLocation({
 			handleFocusChange(locationWrap);
 			locationWrap.current.scrollIntoView({
 				behavior: "smooth",
-
 				block: "center"
 			});
 		}

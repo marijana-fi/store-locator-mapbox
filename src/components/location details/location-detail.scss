@@ -1,6 +1,6 @@
 .details-wrap {
 	width: 50vw;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	background: #fff;
@@ -8,6 +8,7 @@
 	padding: 70px;
 	transform: translateX(100%);
 	transition: all 0.5s;
+
 	&.open {
 		transform: translateX(0);
 		transition: all 0.5s;
@@ -30,5 +31,10 @@
 		.address {
 			margin-bottom: 30px;
 		}
+	}
+	@media (max-width: 768px) {
+		width: 100vw;
+		padding: 40px 20px;
+		z-index: 2;
 	}
 }

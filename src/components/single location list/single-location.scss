@@ -1,9 +1,10 @@
 .location-wrap {
-	padding: 30px 50px;
+	padding: 20px 50px;
 	width: 100%;
 	cursor: pointer;
 	border-bottom: 1px solid rgb(196, 196, 196);
 	transition: all 0.3s;
+
 	&:focus {
 		background: #000;
 		outline: none;
@@ -46,6 +47,14 @@
 					background: var(--sec-text-color);
 					color: var(--main-text-color);
 				}
+			}
+		}
+	}
+	@media (max-width: 768px) {
+		padding: 10px 30px;
+		.info {
+			.hours-wrap {
+				max-width: 400px;
 			}
 		}
 	}
