@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+
 import "./single-location.scss";
 import { dateObj } from "./../../helpers.js";
 export default function SingleLocation({
@@ -15,14 +16,18 @@ export default function SingleLocation({
 			location.geometry.coordinates[0]
 		);
 	};
+	const locationWrap = useRef(null);
 
 	useEffect(() => {
 		if (location === selected) {
 			handleFocusChange(locationWrap);
+			locationWrap.current.scrollIntoView({
+				behavior: "smooth",
+
+				block: "center"
+			});
 		}
 	}, [selected, setSelected]);
-
-	const locationWrap = useRef(null);
 
 	const startTime = location.properties.hours.startTime;
 	const endTime = location.properties.hours.endTime;
