@@ -26,8 +26,20 @@ export default function InfoWindow({
 			<div className="info-wrap">
 				<h3 className="location-name">{selected.properties.Title}</h3>
 				<h5>{selected.properties.Location.Address}</h5>
-				<button className="view-store" onClick={handleClick}>
-					view store
+
+				<button
+					className="button directions"
+					onClick={() => {
+						window.open(
+							`https://www.google.com/maps?saddr=My+Location&daddr=${selected.geometry.coordinates[1]},${selected.geometry.coordinates[0]}`,
+							"_blank"
+						);
+					}}
+				>
+					Get Directions
+				</button>
+				<button className="button view-store" onClick={handleClick}>
+					View Store
 				</button>
 			</div>
 		</Popup>
