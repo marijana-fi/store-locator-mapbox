@@ -20,7 +20,7 @@ export default function LocationDetails({ selected, open, closeLocation }) {
 				<div className="hours">
 					<h3>Store Hours:</h3>
 					<h4>
-						{selected.properties.hours.startTime} -
+						{selected.properties.hours.startTime} -{" "}
 						{selected.properties.hours.endTime}
 					</h4>
 				</div>

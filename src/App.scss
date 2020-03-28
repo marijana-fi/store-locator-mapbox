@@ -51,7 +51,14 @@ button {
 	border: none;
 	margin: 0;
 	padding: 0;
+	color: #000;
 	cursor: pointer;
+	&:focus {
+		outline: 1px solid var(--sec-text-color);
+	}
+	&:hover {
+		color: rgb(99, 99, 99);
+	}
 }
 
 .layout {

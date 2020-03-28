@@ -18,7 +18,7 @@ function App() {
 	const [viewport, setViewport] = useState({
 		latitude: 49.0555,
 		longitude: 10.4376,
-		zoom: window.innerWidth < 480 ? 3 : 4,
+		zoom: window.innerWidth < 480 ? 3 : 3.5,
 		width: window.innerWidth < 480 ? "100vw" : "50vw",
 		height: window.innerWidth < 480 ? "50vh" : "100vh"
 	});

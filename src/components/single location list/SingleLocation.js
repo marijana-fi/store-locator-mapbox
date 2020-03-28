@@ -51,8 +51,11 @@ export default function SingleLocation({
 		<div
 			className="location-wrap "
 			tabIndex="0"
+			role="button"
+			aria-pressed="true"
 			ref={locationWrap}
 			onClick={() => handleClick(location)}
+			onKeyDown={e => (e.keyCode === 13 ? handleClick(location) : null)}
 		>
 			<div className="info">
 				<h2 className="location-name">{location.properties.Title}</h2>

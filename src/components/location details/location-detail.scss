@@ -20,6 +20,10 @@
 		padding: 10px;
 		font-size: 30px;
 		line-height: 0.6;
+		&:focus {
+			outline: none;
+			border: 1px solid #000;
+		}
 	}
 	.location-name {
 		margin-bottom: 50px;
