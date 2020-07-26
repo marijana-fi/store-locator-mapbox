@@ -7,7 +7,7 @@ export default function InfoWindow({
 	selected,
 	setSelected,
 	openLocation,
-	closeLocation
+	closeLocation,
 }) {
 	const handleClick = () => {
 		openLocation();
@@ -37,6 +37,9 @@ export default function InfoWindow({
 					}}
 				>
 					Get Directions
+					<span className="visually-hidden">
+						, opens in a new window
+					</span>
 				</button>
 				<button className="button view-store" onClick={handleClick}>
 					View Store

@@ -6,7 +6,7 @@ import { Marker } from "react-map-gl";
 export default function Pins({ locations, setSelected, goToViewport }) {
 	return (
 		<div>
-			{locations.map(location => {
+			{locations.map((location) => {
 				return (
 					<Marker
 						key={location.properties.Location.Address}
@@ -15,7 +15,7 @@ export default function Pins({ locations, setSelected, goToViewport }) {
 					>
 						<button
 							className="pin"
-							onClick={e => {
+							onClick={(e) => {
 								e.preventDefault();
 								setSelected(location);
 
