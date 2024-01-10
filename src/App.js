@@ -51,7 +51,7 @@ function App() {
 			longitude,
 			zoom: window.innerWidth < 480 ? 5 : 6,
 			width: window.innerWidth < 480 ? "100vw" : "50vw",
-			height: window.innerWidth < 480 ? "50vh" : "100vh",
+			height: window.innerWidth < 480 ? "50vh" : "50vh",
 			transitionInterpolator: new FlyToInterpolator({ speed: 1.2 }),
 			transitionDuration: "auto"
 		});
